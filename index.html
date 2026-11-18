@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Big Ben — an elegant concept website showcasing luxury timepieces.">
+  <title>Big Ben | Luxury Watches</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="Big Ben home">
+        <img src="assets/big-ben-logo.png" alt="Big Ben Luxury Watches">
+      </a>
+
+      <button class="menu-toggle" type="button"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <a class="active" href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="#collection">Collection</a>
+        <a href="#story">Our Story</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">THE ART OF TIME</p>
+          <h1>Experience the <em>luxury</em> of time.</h1>
+          <p class="hero-description">
+            A celebration of extraordinary craftsmanship,
+            timeless design and the details that make every
+            second unforgettable.
+          </p>
+          <a class="button button-gold" href="#collection">
+            Explore collection <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="hero-visual">
+          <img src="assets/banner.png"
+            alt="Rose gold luxury mechanical watches with intricate dials">
+        </div>
+      </div>
+      <span class="hero-index">01 / BIG BEN COLLECTION</span>
+    </section>
+
+    <section id="collection" class="section collection">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">CURATED DETAILS</p>
+            <h2>Beyond the ordinary.</h2>
+          </div>
+          <p>
+            Each timepiece is an expression of precision,
+            character and enduring style.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-image">
+              <img src="assets/informations_img1.png"
+                alt="Close-up of a blue luxury watch" loading="lazy">
+            </div>
+            <div class="feature-caption">
+              <span>01 / CRAFTSMANSHIP</span>
+              <h3>Distinctive design</h3>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-image">
+              <img src="assets/informations_img2.png"
+                alt="Close-up of a dark luxury watch with a green strap"
+                loading="lazy">
+            </div>
+            <div class="feature-caption">
+              <span>02 / HERITAGE</span>
+              <h3>Made to be remembered</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="story" class="story">
+      <div class="shell story-inner">
+        <p class="eyebrow">OUR PHILOSOPHY</p>
+        <h2>Time is the ultimate luxury.</h2>
+        <p>
+          Discover the inspiration behind our concept and
+          the artistry of fine watchmaking.
+        </p>
+        <a class="text-link" href="about.html">
+          Discover our story <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="shell contact-grid">
+        <div>
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Start a conversation.</h2>
+          <p>
+            This is a portfolio concept website. For a live business,
+            contact details and a working inquiry form can be added here.
+          </p>
+        </div>
+
+        <div class="contact-panel">
+          <p class="eyebrow">BIG BEN / CONCEPT</p>
+          <p>Luxury watches, thoughtful design and timeless inspiration.</p>
+          <a class="button button-outline" href="about.html">
+            Learn more <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-top">
+      <a href="index.html" aria-label="Big Ben home">
+        <img src="assets/footer_logo.png" alt="Big Ben Luxury Watches">
+      </a>
+      <nav aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="#collection">Collection</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <div class="shell footer-bottom">
+      <span>© <span id="year"></span> Big Ben. Portfolio concept.</span>
+      <span>Designed with attention to every detail.</span>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
